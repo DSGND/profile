@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,600,600i,700,700i,800,800i&subset=latin-ext');
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	background :#1A2732;
+	color: #B6B1A9;
+	font-size: 16px;
+}
+
+.color1 { color: #1A2732; }
+.color2 { color: #867E76; }
+.color3, a { color: #B6B1A9; }
+
+h1, h2, h3 { font-weight: 500; }
+a { text-decoration: none; }
+
+header, footer { text-align: center; background: #00000025; padding: 1.5em; margin: 0 auto 1em; border-radius: 0.25em; box-shadow: 0 0 5px  #00000025; }
+
+.container { width: 100%; max-width: 800px; }
+
+.title span { font-size: .65em; display: block; }
+.title strong { font-weight: 600; }
+
+.button { display: inline-block; background: #867E76; color: #FFF; margin: .5em; padding: .5em 1em; border-radius: .25em; }
+.button:hover { background:#B6B1A9; color: #1A2732; padding: .5em 2em; transition: all .25s ease-in-out; }
+
+.social { list-style: none; padding: 0; margin: 0; }
+.social a:hover { color: #867E76; transition: all .25s ease-in-out; }
+.social svg { font-size: 2em; padding: .25em; }
+
+
+@media (max-width: 960px) {
+	/* For a screen < 960px, this CSS will be read */
+	.container {
+		max-width: 700px; 
+	}
+}
+@media (max-width: 720px) {
+	/* For a screen < 720px, this CSS will be read */
+	.container {
+		max-width: 500px; 
+	}
+}
+@media (max-width: 540px) {
+	/* For a screen < 540px, this CSS will be read */
+	.container {
+		max-width: 300px; 
+	}
+}
